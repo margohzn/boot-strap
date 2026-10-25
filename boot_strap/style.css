@@ -1,0 +1,14 @@
+
+body{
+    background-color: #728E6D;
+}
+
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
