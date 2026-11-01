@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-    background-color: #728E6D;
+    background-color: #A36031;
+    font: 20px montserrat, sans-serif;
 }
 
 .navbar{
@@ -11,4 +15,43 @@ body{
     margin-bottom: 0;
     font-size: 15px;
     letter-spacing: 5px;
+}
+
+.margin{
+    margin-bottom: 45px;
+}
+
+.bg1{
+    background-color: #728E6D;
+    color: white;
+}
+
+.bg2{
+    background-color: grey;
+    color:white;
+}
+
+.bg3{
+    background-color: white;
+    color: black;
+}
+
+.gallery{
+    width: 100%;
+    box-shadow: darkgreen 2px 2px 5px;
+}
+
+.imagediv{
+    height: 350px;
+    overflow: hidden;
+}
+
+.navbar-nav li a:hover{
+    color: #728e6d !important;
+}
+
+.container-fluid{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
